@@ -62,3 +62,4 @@ drop database Template1; <br />
 create database template1 with owner=postgres encoding='UTF-8' <br />
   lc_collate='en_US.utf8' lc_ctype='en_US.utf8' template template0; <br />
 update pg_database set datistemplate=true where datname='template1'; <br />
+*****
